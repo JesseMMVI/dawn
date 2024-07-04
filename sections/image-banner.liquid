@@ -21,6 +21,13 @@
       }
     }
   {%- endstyle -%}
+  
+{%- elsif section.settings.image_height == 'full' and section.settings.image != blank -%}
+  {%- style -%}
+    .banner__content{
+      height: calc(100vh - var(--header-height) - 38px);
+    }
+  {%- endstyle -%}
 {%- endif -%}
 
 {%- style -%}
@@ -214,6 +221,10 @@
         {
           "value": "large",
           "label": "t:sections.image-banner.settings.image_height.options__4.label"
+        },
+        {
+          "value": "full",
+          "label": "Full height of screen"
         }
       ],
       "default": "medium",
@@ -261,7 +272,7 @@
           "label": "t:sections.image-banner.settings.desktop_content_position.options__9.label"
         }
       ],
-      "default": "middle-center",
+      "default": "bottom-left",
       "label": "t:sections.image-banner.settings.desktop_content_position.label"
     },
     {
@@ -287,7 +298,7 @@
           "label": "t:sections.image-banner.settings.desktop_content_alignment.options__3.label"
         }
       ],
-      "default": "center",
+      "default": "left",
       "label": "t:sections.image-banner.settings.desktop_content_alignment.label"
     },
     {
