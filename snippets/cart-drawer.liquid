@@ -523,19 +523,31 @@
 
         <!-- CTAs -->
 
-        <div class="cart__ctas" {{ block.shopify_attributes }}>
+        <div class="cart__ctas" {{ block.shopify_attributes }} style="display: flex; flex-direction:column; gap: 1rem;">
           <button
             type="submit"
             id="CartDrawer-Checkout"
             class="cart__checkout-button button"
             name="checkout"
             form="CartDrawer-Form"
+            style="margin-bottom: 0px;"
             {% if cart == empty %}
               disabled
             {% endif %}
           >
             {{ 'sections.cart.checkout' | t }}
           </button>
+          <a
+            type="submit"
+            class=""
+            style="color: grey; margin: 0px; font-size: 14px;"
+            href="/cart"
+            {% if cart == empty %}
+              disabled
+            {% endif %}
+          >
+            View full cart
+          </a>
         </div>
       </div>
     </div>
