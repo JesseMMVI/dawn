@@ -10,7 +10,7 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .multicolumn .title-wrapper-with-link {
     margin-bottom: 3rem;
   }
@@ -107,7 +107,7 @@
   transform: translateX(-50%);
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .multicolumn-list {
     margin: 0;
     width: 100%;
@@ -177,7 +177,7 @@
   padding-right: 2.5rem;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .background-none .slider .multicolumn-card__info {
     padding-bottom: 1rem;
   }

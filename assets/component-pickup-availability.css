@@ -149,7 +149,7 @@ pickup-availability-drawer[open] {
 }
 
 @keyframes animateDrawerOpen {
-  @media screen and (max-width: 749px) {
+  @media screen and (max-width: 989px) {
     0% {
       opacity: 0;
       transform: translateX(100%);

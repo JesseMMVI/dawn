@@ -11,7 +11,7 @@
   display: block;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .footer .grid {
     display: block;
   }
@@ -54,7 +54,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .footer__content-bottom {
     flex-wrap: wrap;
     padding-top: 0;
@@ -80,7 +80,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .footer__localization:empty + .footer__column {
     padding-top: 1.5rem;
   }
@@ -136,7 +136,7 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .footer-block.footer-block--menu:only-child {
     text-align: left;
   }
@@ -220,7 +220,7 @@
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   /*
     On a small screen we want all the items to be centered
     because they will be stacked.
@@ -392,7 +392,7 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .footer-block-image,
   .footer-block-image.left,
   .footer-block-image.center,
@@ -492,7 +492,7 @@
 
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
-  @media screen and (max-width: 749px) {
+  @media screen and (max-width: 989px) {
     .footer .grid {
       margin-left: 0;
     }

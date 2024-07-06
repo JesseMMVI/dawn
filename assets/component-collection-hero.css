@@ -6,9 +6,10 @@
 .collection-hero--with-image .collection-hero__inner {
   margin-bottom: 0;
   padding-bottom: 2rem;
+  padding-inline: 1.6rem;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 990px) {
   .collection-hero.collection-hero--with-image {
     padding: calc(4rem + var(--page-width-margin)) 0 calc(4rem + var(--page-width-margin));
     overflow: hidden;
@@ -23,9 +24,9 @@
   flex-basis: 100%;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 990px) {
   .collection-hero {
-    padding: 0;
+    padding: 0 2.5rem;
   }
 
   .collection-hero__inner {
@@ -46,7 +47,7 @@
   line-height: calc(1 + 0.5 / var(--font-body-scale));
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 990px) {
   .collection-hero__title + .collection-hero__description {
     font-size: 1.8rem;
     margin-top: 2rem;
@@ -77,13 +78,16 @@
     rgba(var(--color-shadow), var(--media-shadow-opacity));
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .collection-hero__image-container {
     height: 20rem;
   }
+  .collection-hero {
+    padding: 0 1.6rem;
+  }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 990px) {
   .collection-hero--with-image .collection-hero__text-wrapper {
     padding: 4rem 2rem 4rem 0;
     flex-basis: 50%;
